@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>To Do v0.2</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="comand__list">
+      <h3>Papillon toDo</h3>
+      <h4>Фичи:</h4>
+      <ul>
+         <li>Нельзя добавлять пустое задание</li>
+         <li>Максимальное кол-во заданий - 10</li>
+         <li>Добавление задания с помощью Enter</li>
+         <li>Удаление последнего с помощью Delete</li>
+         <li>Нельзя повторять задание</li>
+      </ul>
+   </div>
+   <div class="toDo">
+      <h1>Список дел</h1>
+      <div class="forError">_</div>
+      <div class="toDo__wrapper">
+         <input type="text" class="js-input">
+         <button class="js-btn">Создать</button>
+         <div class="task__container">
+
+         </div>
+      </div>
+   </div>
+
+   <script src="logic.js"></script>
+</body>
+</html>
