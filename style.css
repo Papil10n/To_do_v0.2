@@ -64,3 +64,12 @@ body {
    padding: 0;
    line-height: 0.5;
 }
+
+@media (max-width: 1320px) {
+   .comand__list {
+      position: relative;
+      width: 350px;
+      margin: 0 auto;
+      padding-bottom: 30px;
+   }
+}
